@@ -12,10 +12,11 @@ public class lineCompersion{
       System.out.println(" coordinate_x2: "+ coordinate_y1);
 		int coordinate_y2 = myObj.nextInt();
       System.out.println(" coordinate_y2: "+ coordinate_y2);
-		int length1 = coordinate_x2-coordinate_x1;
-      int length2 = coordinate_y2-coordinate_y1;
-	      if(length1 == length2){
-   	      System.out.println("The length is same");
-          }
+		System.out.println("0 is equal");
+      System.out.println("1 is length1 is greater");
+      System.out.println("-1 is length2 is greater");
+                int length1 = coordinate_x2-coordinate_x1;
+                int length2 = coordinate_y2-coordinate_y1;
+                System.out.println(Integer.compare(length1,length2));
 	}
 }
